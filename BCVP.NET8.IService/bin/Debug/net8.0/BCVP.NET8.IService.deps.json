@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BCVP.NET8.IService/1.0.0": {
+        "dependencies": {
+          "BCVP.NET8.Model": "1.0.0"
+        },
+        "runtime": {
+          "BCVP.NET8.IService.dll": {}
+        }
+      },
+      "BCVP.NET8.Model/1.0.0": {
+        "runtime": {
+          "BCVP.NET8.Model.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BCVP.NET8.IService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BCVP.NET8.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

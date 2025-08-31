@@ -1,0 +1,23 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "BCVP.NET8",
+    "version": "1.0"
+  },
+  "paths": {
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetUserVo",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
