@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace BCVP.NET8.Extensions
+namespace BCVP.NET8.Extension.ServiceExtension
 {
     /// <summary>
     /// 静态全局AutoMapper配置文件

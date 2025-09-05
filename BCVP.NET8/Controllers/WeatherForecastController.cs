@@ -18,6 +18,8 @@ public class WeatherForecastController : ControllerBase
     private readonly ILogger<WeatherForecastController> _logger;
     private readonly IBaseService<Role, RoleVo> _roleService;
 
+    public IBaseService<Role,RoleVo> _roleServiceObj { get; set; }
+
     public WeatherForecastController(ILogger<WeatherForecastController> logger,
         IBaseService<Role,RoleVo> roleService)
     {
@@ -34,8 +36,10 @@ public class WeatherForecastController : ControllerBase
 
         //var baseService = new BaseService<Role, RoleVo>(_mapper);
         //var roleList = await baseService.Query();
-        
-        var roleList = await _roleService.Query();
+
+        //var roleList = await _roleService.Query();
+
+        var roleList = await _roleServiceObj.Query();
         return roleList;
     }
 }

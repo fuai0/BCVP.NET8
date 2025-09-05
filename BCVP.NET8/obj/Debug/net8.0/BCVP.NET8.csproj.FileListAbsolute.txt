@@ -46,3 +46,9 @@ D:\VS Workspace\Asp .net core\BCVP.NET8\BCVP.NET8\bin\Debug\net8.0\BCVP.NET8.ISe
 D:\VS Workspace\Asp .net core\BCVP.NET8\BCVP.NET8\bin\Debug\net8.0\BCVP.NET8.Model.pdb
 D:\VS Workspace\Asp .net core\BCVP.NET8\BCVP.NET8\bin\Debug\net8.0\BCVP.NET8.Repository.pdb
 D:\VS Workspace\Asp .net core\BCVP.NET8\BCVP.NET8\bin\Debug\net8.0\AutoMapper.dll
+D:\VS Workspace\Asp .net core\BCVP.NET8\BCVP.NET8\obj\Debug\net8.0\BCVP.NET8.sourcelink.json
+D:\VS Workspace\Asp .net core\BCVP.NET8\BCVP.NET8\bin\Debug\net8.0\Autofac.dll
+D:\VS Workspace\Asp .net core\BCVP.NET8\BCVP.NET8\bin\Debug\net8.0\Autofac.Extensions.DependencyInjection.dll
+D:\VS Workspace\Asp .net core\BCVP.NET8\BCVP.NET8\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\VS Workspace\Asp .net core\BCVP.NET8\BCVP.NET8\bin\Debug\net8.0\BCVP.NET8.Extension.dll
+D:\VS Workspace\Asp .net core\BCVP.NET8\BCVP.NET8\bin\Debug\net8.0\BCVP.NET8.Extension.pdb

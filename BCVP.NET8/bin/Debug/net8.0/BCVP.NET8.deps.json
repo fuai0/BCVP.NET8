@@ -9,12 +9,35 @@
       "BCVP.NET8/1.0.0": {
         "dependencies": {
           "BCVP.NET8.Common": "1.0.0",
+          "BCVP.NET8.Extension": "1.0.0",
           "BCVP.NET8.Model": "1.0.0",
-          "BCVP.NET8.Service": "1.0.0",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {
           "BCVP.NET8.dll": {}
+        }
+      },
+      "Autofac/8.1.0": {
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/Autofac.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.0.0"
+          }
+        }
+      },
+      "Autofac.Extensions.DependencyInjection/10.0.0": {
+        "dependencies": {
+          "Autofac": "8.1.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/Autofac.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          }
         }
       },
       "AutoMapper/13.0.1": {
@@ -29,10 +52,17 @@
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
-      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {},
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.324.11423"
+          }
+        }
+      },
       "Microsoft.Extensions.Options/6.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
           "Microsoft.Extensions.Primitives": "6.0.0"
         }
       },
@@ -95,6 +125,7 @@
           }
         }
       },
+      "System.Diagnostics.DiagnosticSource/8.0.1": {},
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "BCVP.NET8.Common/1.0.0": {
         "dependencies": {
@@ -103,6 +134,18 @@
         },
         "runtime": {
           "BCVP.NET8.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "BCVP.NET8.Extension/1.0.0": {
+        "dependencies": {
+          "Autofac.Extensions.DependencyInjection": "10.0.0",
+          "BCVP.NET8.Service": "1.0.0"
+        },
+        "runtime": {
+          "BCVP.NET8.Extension.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -160,6 +203,20 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Autofac/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O2QT+0DSTBR2Ojpacmcj3L0KrnnXTFrwLl/OW1lBUDiHhb89msHEHNhTA8AlK3jdFiAfMbAYyQaJVvRe6oSBcQ==",
+      "path": "autofac/8.1.0",
+      "hashPath": "autofac.8.1.0.nupkg.sha512"
+    },
+    "Autofac.Extensions.DependencyInjection/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZjR/onUlP7BzQ7VBBigQepWLAyAzi3VRGX3pP6sBqkPRiT61fsTZqbTpRUKxo30TMgbs1o3y6bpLbETix4SJog==",
+      "path": "autofac.extensions.dependencyinjection/10.0.0",
+      "hashPath": "autofac.extensions.dependencyinjection.10.0.0.nupkg.sha512"
+    },
     "AutoMapper/13.0.1": {
       "type": "package",
       "serviceable": true,
@@ -174,12 +231,12 @@
       "path": "microsoft.extensions.apidescription.server/6.0.5",
       "hashPath": "microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+      "sha512": "sha512-fGLiCRLMYd00JYpClraLjJTNKLmMJPnqxMaiRzEBIIvevlzxz33mXy39Lkd48hu1G+N21S7QpaO5ZzKsI6FRuA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.1",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512"
     },
     "Microsoft.Extensions.Options/6.0.0": {
       "type": "package",
@@ -237,6 +294,13 @@
       "path": "swashbuckle.aspnetcore.swaggerui/6.6.2",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
     },
+    "System.Diagnostics.DiagnosticSource/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vaoWjvkG1aenR2XdjaVivlCV9fADfgyhW5bZtXT23qaEea0lWiUljdQuze4E31vKM7ZWJaSUsbYIKE3rnzfZUg==",
+      "path": "system.diagnostics.diagnosticsource/8.0.1",
+      "hashPath": "system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512"
+    },
     "System.Runtime.CompilerServices.Unsafe/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -245,6 +309,11 @@
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     },
     "BCVP.NET8.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BCVP.NET8.Extension/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

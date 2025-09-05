@@ -13,3 +13,4 @@ D:\VS Workspace\Asp .net core\BCVP.NET8\BCVP.NET8.IService\obj\Debug\net8.0\BCVP
 D:\VS Workspace\Asp .net core\BCVP.NET8\BCVP.NET8.IService\obj\Debug\net8.0\refint\BCVP.NET8.IService.dll
 D:\VS Workspace\Asp .net core\BCVP.NET8\BCVP.NET8.IService\obj\Debug\net8.0\BCVP.NET8.IService.pdb
 D:\VS Workspace\Asp .net core\BCVP.NET8\BCVP.NET8.IService\obj\Debug\net8.0\ref\BCVP.NET8.IService.dll
+D:\VS Workspace\Asp .net core\BCVP.NET8\BCVP.NET8.IService\obj\Debug\net8.0\BCVP.NET8.IService.sourcelink.json

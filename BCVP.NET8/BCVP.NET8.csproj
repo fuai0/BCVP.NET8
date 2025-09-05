@@ -12,8 +12,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BCVP.NET8.Common\BCVP.NET8.Common.csproj" />
+    <ProjectReference Include="..\BCVP.NET8.Extension\BCVP.NET8.Extension.csproj" />
     <ProjectReference Include="..\BCVP.NET8.Model\BCVP.NET8.Model.csproj" />
-    <ProjectReference Include="..\BCVP.NET8.Service\BCVP.NET8.Service.csproj" />
   </ItemGroup>
 
 </Project>
